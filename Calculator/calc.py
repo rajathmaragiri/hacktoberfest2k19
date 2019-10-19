@@ -5,7 +5,7 @@ me.geometry("354x460")
 me.title("CALCULATOR")
 melabel = Label(me,text="CALCULATOR",bg='White',font=("Courier New",30,'bold'))
 melabel.pack(side=TOP)
-me.config(background='Dark gray')
+me.config(background='Dark grey')
 
 textin=StringVar()#nentered by the user
 operator=""#used for the math symbols
